@@ -1,0 +1,137 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet' href='css/style.css')
+    title HomeWorkLesson 12
+  body
+    .container.containerFlex
+      .main-content
+        .main-header
+          .main-logo DREAMSHARE
+          .main-register
+            .main-register__login
+              button.main-register__buttonLogin(type='button') Log in
+            .main-register__sign
+              button.main-register__buttonSign(type='button') Sign up
+        .main-textblock
+          .main-textblock__title
+            | SHARE YOUR
+            | HOLIDAY DREAM
+          .main-textblock__subtitle And find the perfect partner to fullfill it
+          .main-textblock__button
+            button.a-Button Find your holiday partner
+    .container.mt-1-2
+      .content-container
+        .bTitle How Dreamshare works?
+        .row-img
+          .row-img-container
+            .row-img-item.st-1
+              // <div class="row-img-item__img"></div>
+              .row-img-item__remark STEP 1
+              .row-img-item__title Sed leo enim, condimentum
+              .row-img-item__subtitle
+                | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+          .row-img-container
+            .row-img-item.st-2
+              // <div class="row-img-item__img"></div>
+              .row-img-item__remark STEP 2
+              .row-img-item__title Morbi velit risus
+              .row-img-item__subtitle
+                | Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.
+          .row-img-container.st-3
+            .row-img-item
+              .row-img-item__remark STEP 3
+              .row-img-item__title Sed leo enim, condimentum
+              .row-img-item__subtitle
+                | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+    .container.mt-1-2
+      .content-container
+        .bTitle Meet a partner for your best holiday
+        .row-avatar
+          .row-avatar-container
+            .row-avatar-item
+              .row-avatar-item__img.ico1
+                img(src='img/av_1.png' alt='')
+              .row-avatar-item__title Bradley Hunter
+              .row-avatar-item__subtitle Based in Chicago. I love playing tennis and loud music.
+          .row-avatar-container
+            .row-avatar-item
+              .row-avatar-item__img.ico2
+                img(src='img/av_2.png' alt='')
+              .row-avatar-item__title Marie Bennett
+              .row-avatar-item__subtitle Currently living in Colorado. Lover of art, languages and travelling.
+          .row-avatar-container
+            .row-avatar-item
+              .row-avatar-item__img.ico3
+                img(src='img/av_3.png' alt='')
+              .row-avatar-item__title Diana Wells
+              .row-avatar-item__subtitle
+                | Living in Athens, Greece. I love black and white classics, chillout music and green tea.
+          .row-avatar-container
+            .row-avatar-item
+              .row-avatar-item__img.ico4
+                img(src='img/av_4.png' alt='')
+              .row-avatar-item__title Christopher Pierce
+              .row-avatar-item__subtitle Star Wars fanatic. I have a persistent enthusiasm to create new things.
+        .row-avatar-button
+          button See other partners
+    .container.mt-1-2
+      .content-container
+        .bTitle Meet a partner for your best holiday
+        .collage
+          .row-collage
+            .row-collage-container
+              .row-collage-item.collageImg-1 Sports and Activis
+            .row-collage-container
+              .row-collage-item.collageImg-2 Wellness and Health
+            .row-collage-container
+              .row-collage-item.collageImg-3
+                | Extreme Sports 
+                br
+                |  and Expeditions
+          .row-collage
+            .row-collage-container
+              .row-collage-item.collageImg-4 Games
+            .row-collage-container
+              .row-collage-item.collageImg-5 Culture and Education
+          .row-collage
+            .row-collage-container
+              .row-collage-item.collageImg-6 Enjomet and Relaxation
+            .row-collage-container
+              .row-collage-item.collageImg-7 Trevelling
+    .container.mt-1-2
+      .content-container
+        .bTitle.mbTitle Crate your holiday activity
+        .callback
+          .callback__title Hi! What are your holiday interests?
+          form(action='' method='get')
+            input(type='text' placeholder='Enter your insterests')
+            button(type='submit') Search partners
+    footer.footer
+      .container.mt-1-2
+        .content-container.footFlex
+          .footer-container
+            .footer-logoLeft DREAMSHARE
+            .footer-list
+              | Company
+              ul
+                li
+                  a.footer-list-item(href='') About
+                li
+                  a.footer-list-item(href='') Contact
+                li
+                  a.footer-list-item(href='') Press
+                li
+                  a.footer-list-item(href='') Blog
+                li
+                  a.footer-list-item(href='') Terms and Privacy
+                li
+                  a.footer-list-item(href='') Help
+            .footer-list
+              | Partners
+            .footer-logoRight
+              p DESIGNED BY
+              img(src='img/footer_logo_right.png' alt='')
